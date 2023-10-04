@@ -691,6 +691,9 @@ letter-spacing: 0.04em;
   letter-spacing: 0.04em; 
   color:  #8e8f99;
 }
+.checkbox-container {
+  margin-bottom: 24px;
+}
 .checkbox-wrapper {
   width: 16px;
   height: 16px;
