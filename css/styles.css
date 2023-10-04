@@ -602,13 +602,13 @@ letter-spacing: 0.32px;
   fill: #4D5AE5; 
 }
 .modal-form-btn {
-  display: block;
+  display: block; 
+  text-align: center;
   padding: 16px, 32px;
   width: 105px;
   min-width: 169px;
   height: 56px;
   background-color: #FFF;
-  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -630,7 +630,15 @@ letter-spacing: 0.32px;
   background-color: #404bbf; 
 }
 
-
+.label-text {
+  color:  #8E8F99;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px; /* 116.667% */
+letter-spacing: 0.48px;
+}
 
 .modal-label {
  display: block;
