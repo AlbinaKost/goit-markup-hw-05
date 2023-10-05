@@ -563,9 +563,12 @@ letter-spacing: 0.02em;
 }
 
 .modal-btn:hover .modal-btn-icon {
-  fill: #FFF;
+  fill: #ffffff;
 }
-  
+.modal-btn:focus .modal-btn-icon {
+  fill: #ffffff;
+}  
+
 
 .modal-title {
  color: #2E2F42;
@@ -605,7 +608,10 @@ letter-spacing: 0.32px;
 .modal-form-btn {
   display: block; 
   text-align: center;
-  padding: 16px, 32px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 16px;
   width: 105px;
   min-width: 169px;
   height: 56px;
