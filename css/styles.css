@@ -552,12 +552,12 @@ letter-spacing: 0.02em;
   align-items: center;
   justify-content: center; 
   background-color: #e7e9fc; 
-  border: 1px solid rgba(0, 0, 0, 0.1); 
   cursor: pointer; 
   position: absolute; 
   border-radius: 50%;
   border: none;
   padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1); 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
@@ -606,13 +606,15 @@ letter-spacing: 0.32px;
   fill: #4D5AE5; 
 }
 .modal-form-btn {
-  display: block; 
+  display: block;
+  
+  text-transform: capitalize;
   text-align: center;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 16px;
-  width: 105px;
+  margin-left: 100px;
   min-width: 169px;
   height: 56px;
   background-color: #FFF;
