@@ -721,6 +721,10 @@ letter-spacing: 0.04em;
   align-items: center; 
   justify-content: center;
   fill: transparent; 
+  background-color: #404bbf; 
+  border: none; 
+  fill: #F4F4FD; 
+
 }
 
 
