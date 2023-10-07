@@ -725,22 +725,22 @@ letter-spacing: 0.04em;
 }
 
 .comment-wrapper {
-  
+  margin-bottom: 16px;
 }
 
 .footer-subscribe {
-  font-weight: 500;
   margin-bottom: 16px;
+  color: #fff;
   font-size: 16px;
-  line-height: 1.5; 
-  letter-spacing: 0.02em; 
-  color: #ffffff; 
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 
 }
 
 .footer-form {
   display: flex; 
-  justify-content: center;
+  align-items: flex-end;
   gap: 24px;
 }
 
@@ -773,7 +773,7 @@ letter-spacing: 0.04em;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
   background-color: #4D5AE5; 
